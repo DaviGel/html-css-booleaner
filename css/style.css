@@ -4,6 +4,22 @@
     box-sizing: border-box;
 }
 
+/********
+COMMON
+********/
+
+.padding10 {
+    padding: 10px;
+}
+
+.margin-tl {
+    margin: 30px 0 0 20px;
+}
+
+/********
+HEADER
+********/
+
 header {
     background-image: url('../img/pattern.png');
     background-color: #4ea0ff;
@@ -11,13 +27,82 @@ header {
     padding: 20px 0 10px 20px;
 }
 
-header span {
-    color: white;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 1px 1px black;
+/* Logo */
+#logo {
+    width: 150px;
 }
 
+/* Primo span nell'Header ("The") */
 header span:first-child {
     font-size: 15px;
+}
+
+/********
+MAIN
+********/
+
+
+a {
+    text-decoration: none;
+    color: #52bceb;
+}
+
+/* Immagini dell'articolo nel main */
+main > article img {
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 30px;
+}
+
+.yellow-background {
+    background-color: yellow;
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+/* Righe della tabella */
+table th, table td {
+    padding: 10px;
+}
+
+/* Riga nell'head della tabella */
+table > thead > tr {
+    color: white;
+    background-color: #20a9e5;
+    text-align: left;
+}
+
+.blue_background {
+    background-color: #b1e5f2;
+}
+
+/********
+FOOTER
+********/
+
+footer > h4 {
+    color: gray;
+    padding: 10px;
+}
+
+.articoli-correlati {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+
+#primo-articolo {
+    background-image: url('../img/monitor.jpg');
+}
+
+#secondo-articolo {
+    background-image: url('../img/graph.jpg');
+
 }
