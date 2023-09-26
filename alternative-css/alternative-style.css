@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+main, footer {
+    margin: 0 50px;
+}
+
 header {
     padding: 20px;
     background: url('../img/pattern.png');
