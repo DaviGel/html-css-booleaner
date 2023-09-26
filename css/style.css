@@ -77,6 +77,10 @@ table > thead > tr {
     text-align: left;
 }
 
+.table-space {
+    width: 50%;
+}
+
 .blue-background {
     background-color: #b1e5f2;
 }
